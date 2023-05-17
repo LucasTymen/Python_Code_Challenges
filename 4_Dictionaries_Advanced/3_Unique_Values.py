@@ -11,3 +11,10 @@ print(unique_values({0:3, 1:1, 4:1, 5:3}))
 # should print 2
 print(unique_values({0:3, 1:3, 4:3, 5:3}))
 # should print 1
+
+
+"""
+This function has a similar structure to the last one except that the input has been changed to a dictionary.
+We iterate through each of the values and whenever we find one we have not added to our list already, we add it to the list.
+After the loop, we return the length of the list since that contains all unique values from the dictionary.
+"""
