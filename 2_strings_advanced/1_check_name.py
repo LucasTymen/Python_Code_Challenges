@@ -13,6 +13,5 @@ print(check_for_name("My name is Samantha", "Jamie"))
 """
 As you can see, this function can be created using one line.
 The in keyword will return True if the first provided string is within the second.
-So in this case, we’re checking if name is in sentence.
-In order to ignore differences in capitalization, we can use the .lower() function which converts all characters to lowercase characters.
+So in this case, we’re checking if name is in sentence. In order to ignore differences in capitalization, we can use the .lower() function which converts all characters to lowercase characters.
 """
