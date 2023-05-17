@@ -1,3 +1,4 @@
+############### step 1 ###############
 """
 Challenges
 
@@ -15,10 +16,8 @@ Here are the steps we need to do:
     Create a new class called DriveBot
     Set up a basic constructor (no parameters needed)
     Initialize three instance variables within our constructor which all default to 0: motor_speed, direction, and sensor_range
-
-
-
 """
+
 # Define the DriveBot class here!
 class DriveBot:
   def __init__(self,motor_speed, direction, sensor_range):
@@ -30,30 +29,6 @@ class DriveBot:
     self.direction = 0
 
 robot_1 = DriveBot(5,10,90)
-
-print(robot_1.motor_speed)
-print(robot_1.direction)
-print(robot_1.sensor_range)
-
-########### step 2 ###############
-
-class DriveBot:
-    def __init__(self):
-        self.motor_speed = 0
-        self.direction = 0
-        self.sensor_range = 0
-
-    def control_bot(self,new_speed,new_direction):
-      self.motor_speed = new_speed
-      self.direction = new_direction
-
-    def adjust_sensor(self, new_sensor_range):
-      self.sensor_range = new_sensor_range
-
-robot_1 = DriveBot()
-# Use the methods here!
-robot_1.control_bot(10,180)
-robot_1.adjust_sensor(20)
 
 print(robot_1.motor_speed)
 print(robot_1.direction)
